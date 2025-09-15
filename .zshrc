@@ -93,7 +93,7 @@ if [ -d "$HOME/bin" ]; then
 fi
 
 # -------------------------------
-# End of .zshrc
+# Dotfiles Alias
 # -------------------------------
 
 alias dotfiles='/usr/bin/git --git-dir=/home/ben/.dotfiles/ --work-tree=/home/ben'
