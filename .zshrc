@@ -97,3 +97,6 @@ fi
 # -------------------------------
 
 alias dotfiles='/usr/bin/git --git-dir=/home/ben/.dotfiles/ --work-tree=/home/ben'
+
+# npm bin to path
+export PATH="$(npm prefix -g)/bin:$PATH"
