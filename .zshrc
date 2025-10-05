@@ -100,3 +100,6 @@ alias dotfiles='/usr/bin/git --git-dir=/home/ben/.dotfiles/ --work-tree=/home/be
 
 # npm bin to path
 export PATH="$(npm prefix -g)/bin:$PATH"
+
+# rust bin to path 
+export PATH="$HOME/.cargo/bin:$PATH"
