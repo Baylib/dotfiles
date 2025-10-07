@@ -103,3 +103,6 @@ export PATH="$(npm prefix -g)/bin:$PATH"
 
 # rust bin to path 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# home bin to path
+export PATH="$HOME/.local/bin:$PATH"
