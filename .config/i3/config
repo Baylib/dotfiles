@@ -190,3 +190,5 @@ bar {
 }
 
 exec_always --no-startup-id feh --bg-fill ~/Pictures/stars.jpg ~/Pictures/eclipse.jpg ~/Pictures/galaxy.jpg
+
+exec --no-startup-id caffeine &
